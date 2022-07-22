@@ -1,0 +1,59 @@
+
+PT - Projeto 4_Análise de cancelamentos de hotéis
+
+3 - saber quais valores a variável (coluna) hotel pode assumir: 
+
+
+SELECT Distinct hotel
+from `ancient-blade-353417.123.hotel_bookings`; 
+
+
+# Limitar o número de linhas de consultas SQL
+
+https://pt.stackoverflow.com/questions/312249/limitar-o-n%C3%BAmero-de-linhas-de-consultas-sql
+
+SELECT estado, num_ocorrencia
+FROM bra_ocorrencias
+WHERE nome like 'João'
+LIMIT 5
+ORDER BY num_ocorrencia DESC
+Ou
+
+SELECT estado, num_ocorrencia
+TOP 5
+FROM bra_ocorrencias
+WHERE nome like 'João'
+ORDER BY num_ocorrencia DESC;
+Ou
+
+SELECT estado, num_ocorrencia
+FROM bra_ocorrencias
+WHERE nome like 'João'
+AND ROWNUM <= 5
+ORDER BY num_ocorrencia DESC
+
+3.0 contar quantas linhas todo o nosso conjunto de dados possui
+
+select count (*) from `ancient-blade-353417.123.hotel_bookings`;  
+
+ 5.2 Impacto de um cancelamento feito com menos de 3 dias de antecedência¶
+
+# COUNTIF 
+
+
+	SELECT
+	   booking_date,
+	     COUNTIF (is_canceled = 1) AS 
+	   canceled_booking,
+	     COUNTIF (is_canceled = 0) AS 
+	   not_canceled_booking,
+        (COUNTIF (is_canceled = 1))*1.5 AS 
+	   canceled_booking_payment,
+        (COUNTIF (is_canceled = 0))*1.5 AS 
+	   not_canceled_booking_payment
+       FROM
+      `projeto-4-
+	   hoteis.Projeto_turismo.Projeto 4 - Hoteis - 
+	   tabela 8`
+          GROUP BY
+          booking_date;
