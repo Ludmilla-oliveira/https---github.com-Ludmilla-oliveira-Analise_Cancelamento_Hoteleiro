@@ -15,7 +15,7 @@ Neste projeto foi realizada uma análise de reservas em uma empresa hoteleira. A
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
-<https://github.com/Ludmilla-oliveira/Analise_Cancelamento_Hoteleiro_backup.git>
+<https://github.com/Ludmilla-oliveira/https---github.com-Ludmilla-oliveira-Analise_Cancelamento_Hoteleiro.git>
 ``
 
 ## :handshake: Colaboradores
