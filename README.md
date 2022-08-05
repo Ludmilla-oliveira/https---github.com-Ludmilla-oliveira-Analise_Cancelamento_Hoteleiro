@@ -1,5 +1,10 @@
 # readme_Analise_Cancelamento_Hoteleiro
 <h1 align="center">:file_cabinet: Projeto 4: Análise de cancelamentos de Hotéis</h1>
+ :handshake: Colaboradores
+</b>  Ludmilla Oliveira | Analista de Dados Jr.
+
+## :dart: Status do projeto
+</b> Concluído
 
 ## :memo: Descrição
 
@@ -16,12 +21,5 @@ Neste projeto foi realizada uma análise de reservas em uma empresa hoteleira. A
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
 <https://github.com/Ludmilla-oliveira/Analise_Cancelamento_Hoteleiro_backup.git>
-``
 
 
-
-## :handshake: Colaboradores
-</b>  Ludmilla Oliveira | Analista de Dados Jr.
-
-## :dart: Status do projeto
-</b> Concluído
